@@ -1,0 +1,103 @@
+body {
+    background: #f5efe0;
+}
+
+.welcome {
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Top navbar menu styling */
+.navbar {
+    background-color: #41ba7c;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+navbar a.active{
+    background-color: #40AA6d;
+    color: white; 
+}
+
+/**/
+
+/* add padding to avoid text overlap with menu */
+.main {
+    margin: 150px;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+}
+
+/* table for "myplants.html" styling */
+.plantstable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    font-size: 20px;
+}
+
+/**/
+
+/* clock styling */
+#clock {
+    position: fixed;
+    width: 300px;
+    right: 0;
+    font-size: 56px;
+    color: black;
+    text-align: center;
+}
+
+/**/
+
+/* tank gauge styling */
+#preview{
+    width: 300px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+#gaugelabel {
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+/* config table styling */
+.configlabel {
+    color: #41ba7c;
+}
+
+.configdata{
+    color: #798c82
+}
+
+ 
