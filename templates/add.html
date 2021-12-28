@@ -1,0 +1,16 @@
+{% extends "template.html" %}
+
+{% block body %}
+
+<h1>Add a plant to the chain.</h1>
+
+<form action="/addplant" method="POST">
+
+    <input autocomplete="off" autofocus name="species" placeholder="Species" type="text">
+    <input autocomplete="off"  name="nickname" placeholder="Nickname" type="text">
+    <input autocomplete="off"  name="size" placeholder="Size" type="text">
+    <input type="submit">
+
+</form>
+
+{% endblock %}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title> PlantsBeThirsty </title>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" width="device-width">
+
+        <link rel="stylesheet" href="/static/styles/style.css">
+
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+
+    </head>
+
+    <body>
+
+        <div class="navbar">
+
+            <a href="/">Home</a>
+            <a href="/myplants">My Plants</a>
+            <a href="/add">Add Plant</a>
+            <a href="/status">Status</a>
+
+        </div>
+
+        <div class="main">
+
+            {% block body %} {% endblock %}
+
+        </div>
+
+    </body>
+
+    <footer>
+
+        <p>Developed by Daniel Pifer for a home plant watering system.</p>
+        <p>For support, please start by reading the documentation <a href="/help">here.</a></p>
+        <p>&#169 Daniel Pifer 2021.</p>
+
+    </footer>
+
+</html>

@@ -1,0 +1,31 @@
+{% extends "template.html" %}
+
+{% block body %}
+
+    <h1>Welcome to your plants.</h1>
+
+    <table class="plantstable">
+
+        <tr>
+
+            <th>Species</th>
+            <th>Nickname</th>
+            <th>Size</th>
+
+        </tr>
+
+        {% for plant in Plants %} 
+
+            <tr>
+
+                <td>{{ plant.species }}</td>
+                <td>{{ plant.nickname }}</td>
+                <td>{{ plant.size }}</td>
+            
+            </tr>
+    
+        {% endfor %}
+
+    </table>
+
+{% endblock %}
